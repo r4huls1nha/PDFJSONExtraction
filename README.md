@@ -12,3 +12,11 @@ User Flow:
 2. User prompted to enter pitch deck
 3. OpenAI LLM chunks text, retrieves relevant info based from Pydantic models
 4. JSON file is returned, available for download
+
+
+Instructions for use:
+
+1. pip install -r requirements.txt (in terminal)
+2. Amend API keys as necessary
+3. streamlit run app.py (in terminal)
+4. Enter pdf and enjoy
